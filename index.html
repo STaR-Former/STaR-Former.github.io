@@ -107,7 +107,7 @@
                   </a>
               </span>
               <span class="link-block">
-                <a href="" target="_blank"
+                <a href="https://wandb.ai/mf-uofg/STaRFormer/reports/STaRFormer--VmlldzoxNDY2Njk3OQ?accessToken=qc2v09qzoebzimmuq4qp0lli5ojwsitynu8ep6aucd333fmki6cbxu0r8j8fj28c" target="_blank"
                    class="external-link button is-normal is-rounded is-dark" style="background-color: #ffcb33;">
                   <span class="icon">
                       <i class="fa fa-book"></i>
@@ -868,202 +868,156 @@
       <div class="", style="margin-top:20px; padding: 5px; padding-bottom:0px">
         <h3 class="title">Time Series Extrinsic Regression</h3>
         <div class="white-bg hero-img", style="padding:5px">
-            <h6 style="margin-top: 5px;"> Table 5: Regression results (RMSE) on the <a href="http://tseregression.org/" target="_blank">TSR Benchmark</a> (19 datasets). </h6>
-          
-          <table class="results-table">
-            <tr class="light-grey-border-top" style="text-align: center;">
-                <th></th>
-                <th style="text-align: center;">FPCR</th>
-                <th style="text-align: center;">FPCR-Bspline</th>
-                <th style="text-align: center;">SVR</th>
-                <th style="text-align: center;">SVR Optimised</th>
-                <th style="text-align: center;">Random Forest</th>
-                <th style="text-align: center;">XGBoost</th>
-                <th style="text-align: center;">1-NN-ED</th>
-                <th style="text-align: center;">5-NN-ED</th>
-                <th style="text-align: center;">1-NN-DTWD</th>
-                <th style="text-align: center;">5-NN-DTWD</th>
-                <th style="text-align: center;">Rocket</th>
-                <th style="text-align: center;">FCN</th>
-                <th style="text-align: center;">ResNet</th>
-                <th style="text-align: center;">Inception</th>
-                <th style="text-align: center;">TARNet</th>
-                <th style="text-align: center;">STaRFormer</th>
-              </tr>
-              <tr class="light-grey-bg" style="text-align: center;">
-                <td style="text-align: left;">Avg. Rel. Mean Difference &#8595;</td>
-                <td>0.028</td>
-                <td>0.029</td>
-                <td>0.387</td>
-                <td>0.208</td>
-                <td>-0.121</td>
-                <td>-0.132</td>
-                <td>0.288</td>
-                <td>0.051</td>
-                <td>0.125</td>
-                <td>-0.034</td>
-                <td>-0.245</td>
-                <td>-0.160</td>
-                <td>-0.119</td>
-                <td>-0.220</td>
-                <td>0.170</td>
-                <td><b>-0.254</b></td>
-              </tr>
-              <tr class="" style="text-align: center;">
-                <td style="text-align: left;">Avg. Rel. Mean Rank &#8595;</td>
-                <td>9</td>
-                <td>10</td>
-                <td>16</td>
-                <td>14</td>
-                <td>6</td>
-                <td>5</td>
-                <td>15</td>
-                <td>11</td>
-                <td>12</td>
-                <td>8</td>
-                <td>2</td>
-                <td>4</td>
-                <td>7</td>
-                <td>3</td>
-                <td>13</td>
-                <td><b>1</b></td>
-              </tr>
-              <tr class="light-grey-bg" style="text-align: center;">
-                <td style="text-align: left;">Top Scores &#8593;</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>3</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>6</td>
-                <td>1</td>
-                <td>1</td>
-                <td>3</td>
-                <td>0</td>
-                <td><b>9</b></td>
-              </tr>
-              <tr><td colspan="17"></td></tr>
-          </table>
+          <h6> Table 5: Regression results (RMSE) on the <a href="http://tseregression.org/" target="_blank">TSR Benchmark</a> (19 datasets).  </h6>
+          <div class="results-row">
+            <table class="results-table">
+              <tr class="light-grey-border-top" style="text-align: center;">
+                  <th class="light-grey-bg"></th>
+                  <th class="light-grey-bg" style="text-align: center;">FPCR</th>
+                  <th class="light-grey-bg" style="text-align: center;">FPCR-Bspline</th>
+                  <th class="light-grey-bg" style="text-align: center;">SVR</th>
+                  <th class="light-grey-bg" style="text-align: center;">SVR Optimised</th>
+                  <th class="light-grey-bg" style="text-align: center;">Random Forest</th>
+                  <th class="light-grey-bg" style="text-align: center;">XGBoost</th>
+                  <th class="light-grey-bg" style="text-align: center;">1-NN-ED</th>
+                  <th class="light-grey-bg" style="text-align: center;">5-NN-ED</th>
+                  <th class="light-grey-bg" style="text-align: center;">1-NN-DTWD</th>
+                  <th class="light-grey-bg" style="text-align: center;">5-NN-DTWD</th>
+                  <th class="light-grey-bg" style="text-align: center;">Rocket</th>
+                  <th class="light-grey-bg" style="text-align: center;">FCN</th>
+                  <th class="light-grey-bg" style="text-align: center;">ResNet</th>
+                  <th class="light-grey-bg" style="text-align: center;">Inception</th>
+                  <th class="light-grey-bg" style="text-align: center;">TARNet</th>
+                  <th class="light-grey-bg" style="text-align: center;">STaRFormer</th>
+                  
+                </tr>
+                <tr class="" style="text-align: center;">
+                  <td style="text-align: left;">Avg. Rel. Mean Difference &#8595;</td>
+                  <td>0.028</td>
+                  <td>0.029</td>
+                  <td>0.387</td>
+                  <td>0.208</td>
+                  <td>-0.121</td>
+                  <td>-0.132</td>
+                  <td>0.288</td>
+                  <td>0.051</td>
+                  <td>0.125</td>
+                  <td>-0.034</td>
+                  <td>-0.245</td>
+                  <td>-0.160</td>
+                  <td>-0.119</td>
+                  <td>-0.220</td>
+                  <td>0.170</td>
+                  <td><b>-0.254</b></td>
+                </tr>
+                <tr class="light-grey-bg" style="text-align: center;">
+                  <td style="text-align: left;">Avg. Rel. Mean Rank &#8595;</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>16</td>
+                  <td>14</td>
+                  <td>6</td>
+                  <td>5</td>
+                  <td>15</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>8</td>
+                  <td>2</td>
+                  <td>4</td>
+                  <td>7</td>
+                  <td>3</td>
+                  <td>13</td>
+                  <td><b>1</b></td>
+                </tr>
+                <tr class="" style="text-align: center;">
+                  <td style="text-align: left;">Top Scores &#8593;</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>6</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td><b>9</b></td>
+                </tr>
+              <tr><td colspan="17"></td></tr> 
+            </table>
+          </div>
         </div>
         </div>
       </div>
     </div>
-    
-    <!--div  class="" style="margin-top:50px;"> 
-    NEEDS
-      <h3 class="title">Regression</h3>
-      <div class="white-bg hero-img", style="margin-top:20px; padding: 5px; padding-bottom:0px">
-        <div class="results-row">
-        <div class="results-column-1-3">
-          <h6> Table 4: Anomaly detection results (Univariate). </h6>
-        </div>
-        <div class="results-column-2-3">
-          <table class="results-table">
-            <tr class="light-grey-border-top" style="text-align: center;">
-                <th></th>
-                <th colspan="3" style="text-align: center;">Yahoo</th>
-                <th colspan="3" style="text-align: center;">KPI</th>
-              </tr>
-              <tr class="light-grey-bg" style="text-align: center;">
-                <th></th>
-                <th class="light-grey-border-top">F<sub>1</sub>-Score<span>&#8593;</span></th>
-                <th class="light-grey-border-top">Precision<span>&#8593;</span></th>
-                <th class="light-grey-border-top">Recall<span>&#8593;</span></th>
-                <th class="light-grey-border-top">F<sub>1</sub>-Score<span>&#8593;</span></th>
-                <th class="light-grey-border-top">Precision<span>&#8593;</span></th>
-                <th class="light-grey-border-top">Recall<span>&#8593;</span></th>
-              </tr>
-              <tr style="text-align: center;">
-                <td style="text-align: left;">SPOT</td>
-                <td>0.338</td>
-                <td>0.269</td>
-                <td>0.454</td>
-                <td>0.217</td>
-                <td>0.786</td>
-                <td>0.126</td>
-              </tr>
-              <tr class="light-grey-bg" style="text-align: center;">
-                <td style="text-align: left;">DSPOT</td>
-                <td>0.316</td>
-                <td>0.241</td>
-                <td>0.458</td>
-                <td>0.521</td>
-                <td>0.623</td>
-                <td>0.447</td>
-              </tr>
-              <tr style="text-align: center;">
-                <td style="text-align: left;">SPOT</td>
-                <td>0.338</td>
-                <td>0.269</td>
-                <td>0.454</td>
-                <td>0.217</td>
-                <td>0.786</td>
-                <td>0.126</td>
-              </tr>
-              <tr class="light-grey-bg" style="text-align: center;">
-                <td style="text-align: left;">DONUT </td>
-                <td>0.026</td>
-                <td>0.013</td>
-                <td>0.825</td>
-                <td>0.347</td>
-                <td>0.371</td>
-                <td>0.326</td>
-              </tr>
-              <tr style="text-align: center;">
-                <td style="text-align: left;">SR</td>
-                <td>0.563</td>
-                <td>0.451</td>
-                <td>0.747</td>
-                <td>0.622</td>
-                <td>0.647</td>
-                <td>0.598</td>
-              </tr>
-              <tr class="light-grey-bg" style="text-align: center;">
-                <td style="text-align: left;">TS2Vec</td>
-                <td>0.745</td>
-                <td>0.729</td>
-                <td>0.762</td>
-                <td>0.677</td>
-                <td><b>0.929</b></td>
-                <td>0.533 </td>
-              </tr>
-              <tr style="text-align: center;">
-                <td style="text-align: left;">TimesURL</td>
-                <td>0.749</td>
-                <td>0.748</td>
-                <td>0.750</td>
-                <td>0.688</td>
-                <td>0.925</td>
-                <td>0.546</td>
-              </tr>
-              <tr class="light-grey-bg" style="text-align: center;">
-                <td style="text-align: left;">STaRFormer</td>
-                <td><b>0.789</b></td>
-                <td><b>0.772</b></td>
-                <td><b>0.807</b></td>
-                <td><b>0.830</b></td>
-                <td>0.852</td>
-                <td><b>0.811</b></td>
-              </tr>
-              <tr><td colspan="17"></td></tr>
-          </table>
-        </div>
-      </div>
-    </div>    
-  </div-->
 </section>
 
 <section class="section">
   <div class="container is-max-desktop content">
-    <h3 class="title">Ablation Studies</h3>
-    <p> t-SNE visualizations of <span class="dnerf">STaRFormer</span>'s latent space Z. For datasets where our 
-      contrastive learning approach is highly effective (e.g., PS), more distinct class clusters are clearly visible.</p>
-    <img src="./static/images/latent-space-ablation.png" class="hero-img" alt="STaRFormer Architecture", style="display: block; margin: auto; width: 100%;">
+    <h2 class="title">Ablation Studies</h2>
+    <div  class="" style="margin-top:50px;"> 
+      <div class="", style="margin-top:20px; padding: 5px; padding-bottom:0px">
+        <div class="white-bg hero-img", style="padding:5px">
+          <h3 class="title dnerf" style="margin-bottom: 10px">Impact of Semi-Supervised Contrastive Learning</h3>
+          
+          <div class="results-row">
+            <div class="results-column-1-3">
+              <ul>
+                <li>Fusing batch-wise and class-wise similarities is beneficial</li>
+                <ul>
+                  <li> self- / supervised CL &darr;; performance</li>
+                </ul>
+                <li>Emphasis on CL loss, i.e., &uarr; &lambda;<sub>CL</sub> &darr; performance</li>
+                  <ul><li>At &lambda;<sub>CL</sub>&approx;0.1, equal contribution of 𝔏<sub>Task</sub>CE and 𝔏<sub>STaR-CL</sub></li></ul>
+              </ul>
+            </div>
+            <div class="results-column-2-3" style="align-content: center;">
+              <img style="padding: 3px" src="./static/images/sscl.png"  alt="SSCL Ablation", style="display: block; margin: auto; width: 100%;">
+              <img style="padding: 4px" src="./static/images/contrastive-weight.png"  alt="Contrastive Weight Ablation", style="display: block; margin: auto; width: 100%;">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div  class="" style="margin-top:50px;"> 
+        <div class="", style="margin-top:20px; padding: 5px; padding-bottom:0px">
+          <div class="white-bg hero-img", style="padding:5px">
+            <h3 class="title dnerf" style="margin-bottom: 10px">Impact of Regional Masking</h3>
+            <div class="results-row">
+                <div class="results-column-1-3">
+                  <ul>
+                    <li>No top performance for any metric where &gamma;=0, i.e., masking of individual elements.</li>
+                    <li> &uarr; masking regions, tends to &uarr; performance</li>
+                  </ul>
+                </div>
+                <div class="results-column-2-3" style="align-content: center;">
+                  <img style="padding: 3px" src="./static/images/regional-masking.png"  alt="Regional Masking Results", style="display: block; margin: auto; width: 100%;">
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div  class="" style="margin-top:50px;"> 
+        <div class="", style="margin-top:20px; padding: 5px; padding-bottom:0px">
+          <div class="white-bg hero-img", style="padding:5px">
+            <h3 class="title dnerf" style="margin-bottom: 10px">Latent Space</h3>
+            <p style="padding: 10px"> t-SNE visualizations of <span class="dnerf">STaRFormer</span>'s latent space Z. For datasets where our 
+              contrastive learning approach is highly effective (e.g., PS), more distinct class clusters are clearly visible. 
+              <span class="dnerf">STaRFormer-Base</span> is a vanilla Transformer-encoder.</p>
+            <img style="padding: 10px" src="./static/images/latent-space-ablation.png"  alt="Latent Space Results", style="display: block; margin: auto; width: 100%;">
+          </div>
+          </div>
+        </div>
+      </div>
   </div>
 </section>
 
